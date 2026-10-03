@@ -1,0 +1,24 @@
+# Local cafe data and backups
+/data/
+/backups/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+
+# Python and temporary files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+/vendor/
+*.log
+.DS_Store
+Thumbs.db
